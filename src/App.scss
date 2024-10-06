@@ -1,0 +1,16 @@
+iframe {
+  display: none;
+}
+
+.page {
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr 1fr;
+  column-gap: 60px;
+  min-height: 100vh;
+}
+
+.sidebar {
+  padding: 5%;
+  border-left: 1px solid black;
+  border-right: 1px solid red;
+}
